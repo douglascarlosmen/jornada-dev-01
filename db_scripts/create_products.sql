@@ -1,0 +1,7 @@
+CREATE TABLE produtos(
+id INT NOT NULL AUTO_INCREMENT,
+nome VARCHAR(255) NOT NULL,
+preco_custo DECIMAL(19,2) DEFAULT 0,
+preco_venda DECIMAL(19, 2)DEFAULT 0,
+qnt_estoque INT DEFAULT 0,
+PRIMARY KEY (id));
